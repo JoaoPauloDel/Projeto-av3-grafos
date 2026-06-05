@@ -1,31 +1,27 @@
-============================================================
-PROJETO FINAL — RESOLUÇÃO DE PROBLEMAS EM GRAFOS
-Disciplina: T290-40 Resolução prob com grafos — UNIFOR
-============================================================
+# 🗺️ Malha Viária de Fortaleza
+> Projeto Final · T290-40 · UNIFOR
 
-EQUIPE:
-João Paulo Del Vecchio — 2413537
-Reynaldo Athayde       — 2410371
+**Equipe:** João Paulo Del Vecchio `2413537` · Reynaldo Athayde `2410371`
 
-PRÉ-REQUISITOS:
+---
+
+## Instalação e execução
+```bash
 pip install matplotlib networkx
-
-COMO EXECUTAR:
 python main.py
+```
 
-USO DA INTERFACE:
-1. Selecione "Definir Origem" e marque um bairro
-2. Selecione "Definir Destino" e marque outro bairro
-3. Clique em "Calcular Rota"
-4. Laranja = Dijkstra (menor km) | Verde = BFS (menos bairros)
-5. "Limpar Seleção" para reiniciar
+## Como usar
+1. Digite a **Origem** e o **Destino** nos campos e selecione a sugestão
+2. Clique em **Calcular Rota**
+3. 🟠 Laranja = Dijkstra (menor km) · 🟢 Verde = BFS (menos bairros)
 
-ARQUIVOS:
-main.py         → execução principalF
-grafo.py        → construção do grafo
-bfs.py          → algoritmo BFS
-dijkstra.py     → algoritmo Dijkstra
-analises.py     → análises do grafo
-visualizacao.py → interface gráfica
-    README.txt      → este arquivo
-============================================================
+## Arquivos
+| Arquivo | Descrição |
+|---|---|
+| `main.py` | Execução principal |
+| `grafo.py` | Construção do grafo |
+| `bfs.py` | Algoritmo BFS |
+| `dijkstra.py` | Algoritmo Dijkstra |
+| `analises.py` | Análises do grafo |
+| `visualizacao.py` | Interface gráfica |
